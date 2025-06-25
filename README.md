@@ -15,6 +15,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) web application to manage p
 - Category & sub-category management
 - Image upload with Cloudinary
 - Smart filtering and pagination
+- Image zoom on hover for better user experience
 
 ### Wishlist
 - Authenticated users can add/remove products to wishlist
@@ -48,10 +49,12 @@ A full-stack MERN (MongoDB, Express, React, Node.js) web application to manage p
 
 # Backend Setup Run 
 cd backend
+npm install
 npm start
 
 # Frontedn Setup Run
 cd backend
+npm install
 npm start
  
 ### env 
@@ -60,4 +63,8 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+
+## Hosting
+Frontend hosted on Vercel
+Backend hosted on Render
 
